@@ -14,7 +14,7 @@ var morgan = require('morgan');
 var cookieParser = require('cookie-parser');
 var session = require('express-session');
 
-//var configDB = require('./config/database.js');
+var configDB = require('./config/database.js');
 
 //mongoose.Promise = global.Promise;
 
