@@ -15,10 +15,9 @@ var cookieParser = require('cookie-parser');
 var session = require('express-session');
 
 
-var configDB = require('./config/database.js');
+//var configDB = require('./config/database.js');
 
 //mongoose.Promise = global.Promise;
-
 //mongoose.connect(configDB.url); 
 mongoose.Promise = global.Promise;
 mongoose.connect('mongodb://localhost/LoginAPI');

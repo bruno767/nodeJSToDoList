@@ -24,8 +24,8 @@
     "nodemon": "^1.11.0"
   },
   "dependencies": {
-    "bcrypt-nodejs": "latest",
-    "body-parser": "~1.0.0",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.0.0",
     "connect-flash": "^0.1.1",
     "cookie-parse": "^0.4.0",
     "cookie-parser": "^1.0.1",
@@ -39,7 +39,8 @@
     "passport": "^0.1.18",
     "passport-facebook": "~1.0.2",
     "passport-google-oauth": "~0.1.5",
-    "passport-local": "~0.1.6",
-    "passport-twitter": "~1.0.2"
+    "passport-local": "^0.1.6",
+    "passport-twitter": "~1.0.2",
+    "user": "0.0.0"
   }
 }
